@@ -1,0 +1,1 @@
+export { useStylePropsWithDelay } from './useStylePropsWithDelay'
