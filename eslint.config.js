@@ -11,7 +11,7 @@ import tseslint from 'typescript-eslint'
 
 export default tseslint.config(
   {
-    ignores: ['dist', '/.git', 'node_modules', '*.config.js'],
+    ignores: ['./dist', './.git', './node_modules', '*.config.js'],
     extends: [js.configs.recommended, ...tseslint.configs.recommended],
     files: ['**/*.{ts,tsx}'],
   },
