@@ -18,8 +18,9 @@ export const infoStackStyles = defineStyle({
 }) as BoxProps
 
 export const avatarStyles = defineStyle({
-  src: '/myPhoto.jpeg',
+  src: '/portfolio-photo.jpg',
   alt: 'avatar',
+  objectFit: 'cover',
   borderRadius: '50%',
   w: { base: '280px', sm: '400px', md: '450px', xl: '500px' },
   h: { base: '280px', sm: '400px', md: '450px', xl: '500px' },
