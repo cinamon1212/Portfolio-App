@@ -12,8 +12,9 @@ const styles: StylesType = {
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
+      overflowX: 'hidden',
     },
-    html: { scrollBehavior: 'smooth' },
+    html: { scrollBehavior: 'smooth', overflowX: 'hidden' },
     body: {
       minH: '100vh',
       fontFamily: `'Comfortaa Variable', sans-serif`,
@@ -21,6 +22,7 @@ const styles: StylesType = {
       bgGradient: 'radial(gray.800, gray.900, black)',
       textColor: 'gray.100',
       p: '0 !important',
+      overflowX: 'hidden',
     },
   },
 }
