@@ -22,7 +22,7 @@ export const jobsList: Job[] = [
     position: 'Старший-разработчик',
     description:
       'Разрабатывал приложение в сфере Финтех. Покрывал код юнит-тестами c использованием библиотек Jest и RTL, синхронизировал репозитории для поддержания актуальности кода, исправлял баги.',
-    techList: ['React', 'Redux / Saga', 'SCSS', 'Jest', 'RTL', 'Git'],
+    techList: ['React', 'Redux / Saga', 'SCSS', 'Jest', 'Git'],
   },
   {
     period: 'Январь 2021 - Май 2023',
