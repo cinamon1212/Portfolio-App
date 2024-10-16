@@ -2,6 +2,7 @@ import { GithubIcon, Project, VisitIcon } from '@/shared'
 
 const brainwaveVercelLink = 'https://brainwave-app-cinamon.vercel.app/'
 const countriesVercelLink = 'https://countries-cinamon.vercel.app/'
+const disneyVercelLink = 'https://disney-app-black.vercel.app/'
 const weatherVercelLink = 'https://weather-app-cinamon.vercel.app/'
 
 export const projects: Project[] = [
@@ -18,6 +19,20 @@ export const projects: Project[] = [
         Icon: GithubIcon,
       },
       { href: brainwaveVercelLink, Icon: VisitIcon },
+    ],
+  },
+  {
+    name: 'Disney+ App',
+    description: 'Копия приложения Disney+ с гугл аунтификацией. Приложение адаптивно под любое расширение экрана.',
+    imgPath: '/projects/disney.jpg',
+    technologiesList: ['React', 'TypeScript', 'Redux', 'Firebase', 'Styled-components', 'Vite'],
+    vercelLink: disneyVercelLink,
+    links: [
+      {
+        href: 'https://github.com/cinamon1212/Disney-App.git',
+        Icon: GithubIcon,
+      },
+      { href: disneyVercelLink, Icon: VisitIcon },
     ],
   },
   {
